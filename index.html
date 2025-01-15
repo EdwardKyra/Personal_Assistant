@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/owfont-regular.min.css">
+<link rel="stylesheet" href="css/owfont-regular.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <a name="anchorHome"></a>
+        <section id="home">
+            <div class="link"><a href="#anchorWeather">Weather</a></div>
+            <div id="time"></div>
+            <div id="notifications">Notificantions</div>
+            <div id="demo">Say "Eva, show weather..."</div>
+
+            <div id="talk">
+                <h1>Eva</h1>
+                <button id="start">Start listening</button>
+                <button id="end">End</button>
+                <div id="transcript"></div>
+            </div>
+
+            <!-- <div id="result"></div>
+            <p id="processing"></p> -->
+
+        </section>
+
+        <a name="anchorWeather"></a>
+        <section id="weather">
+            <div class="link"><a href="#anchorHome">Home</a></div>
+            <div id="weatherstuff">
+                <div class ="weatherIcon owf">Icon</div>
+                <div class ="weatherTitle">Weather</div>
+            </div>
+
+        </section>
+    </div>
+    <script src="javascript.js"></script>
+    
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script> -->
+
+</body>
+</html>
